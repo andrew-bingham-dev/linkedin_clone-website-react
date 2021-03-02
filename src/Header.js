@@ -23,7 +23,10 @@ function Header() {
 	return (
 		<div className='header'>
 			<div className='header__left'>
-				<img src='https://www.cbronline.com/wp-content/uploads/2016/06/linkedin.jpg' alt='' />
+				<img
+					src='http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c528.png'
+					alt=''
+				/>
 				<div className='header__search'>
 					<SearchIcon />
 					<input placeholder='Search' type='text' />

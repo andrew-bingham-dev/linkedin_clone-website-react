@@ -57,7 +57,7 @@ function Login() {
 
 	return (
 		<div className='login'>
-			<img src='https://www.cbronline.com/wp-content/uploads/2016/06/linkedin.jpg' alt='' />
+			<img src='http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c528.png' alt='' />
 
 			<form>
 				<input
