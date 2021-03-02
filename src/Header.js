@@ -11,7 +11,6 @@ import './Header.css';
 import HeaderOption from './HeaderOption';
 import { auth } from './firebase';
 import { logout, selectUser } from './features/userSlice';
-import philosPic from 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYN9W2zML3cLWI7keGR-4QapSIdrYz1Hx_mA&usqp=CAU';
 
 function Header() {
 	const user = useSelector(selectUser);
@@ -24,7 +23,7 @@ function Header() {
 	return (
 		<div className='header'>
 			<div className='header__left'>
-				<img src={philosPic} alt='' />
+				<img src='https://www.cbronline.com/wp-content/uploads/2016/06/linkedin.jpg' alt='' />
 				<div className='header__search'>
 					<SearchIcon />
 					<input placeholder='Search' type='text' />
