@@ -40,3 +40,7 @@
 .header__right {
 	display: flex;
 }
+
+@media (max-width: 1300px) {
+	
+}

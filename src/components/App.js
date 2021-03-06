@@ -5,9 +5,10 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import Feed from './Feed';
 import Login from './Login';
-import { login, logout, selectUser } from './features/userSlice';
-import { auth } from './firebase';
+import { login, logout, selectUser } from '../features/userSlice';
+import { auth } from '../firebase';
 import Widgets from './Widgets';
+import MobileFooter from './MobileFooter';
 
 function App() {
 	const user = useSelector(selectUser);
