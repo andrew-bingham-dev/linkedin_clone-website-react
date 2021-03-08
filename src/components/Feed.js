@@ -9,10 +9,10 @@ import FlipMove from 'react-flip-move';
 import './Feed.css';
 import InputOption from './InputOption';
 import Post from './Post';
-import { db } from './firebase';
+import { db } from '../firebase';
 import firebase from 'firebase';
 import { useSelector } from 'react-redux';
-import { selectUser } from './features/userSlice';
+import { selectUser } from '../features/userSlice';
 
 function Feed() {
 	const user = useSelector(selectUser);
